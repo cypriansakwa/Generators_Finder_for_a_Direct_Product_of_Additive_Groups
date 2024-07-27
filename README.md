@@ -1,5 +1,5 @@
 This Rust program finds and prints the generators of the group Z_n × Z_m, where Z_n and Z_m are additive groups.
-Itidentifies all pairs (a,b) that generate the entire group.
+It identifies all pairs (a,b) that generate the entire group.
 This program contains the following;
 1. ZnZm Struct that represents the group Z_n × Z_m.
 2. find_generators Method that finds all generator pairs (a,b) of the group.
