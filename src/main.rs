@@ -46,9 +46,9 @@ impl ZnZm {
 }
 
 fn main() {
-    let group = ZnZm::new(100, 99);
+    let group = ZnZm::new(11, 12);
     let generators = group.find_generators();
 
-    println!("Generators of Z100 x Z99: {:?}", generators);
+    println!("Generators of Z11 x Z12: {:?}", generators);
 }
 
